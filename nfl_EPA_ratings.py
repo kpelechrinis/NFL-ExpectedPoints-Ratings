@@ -1,13 +1,8 @@
-from matplotlib import pyplot as plt
-from scipy.stats import norm
 import sys
 import os
-import seaborn as sns
 import pandas as pd
 import numpy as np
 from scipy import optimize
-from numpy import linalg as LA
-import nflgame
 
 # The first argument is a file that has every play of the type you are interested to obtain ratings for (e.g., test-data.csv has the passing plays from the 2017 season) 
 # There needs to be a column called "Offense" that has the team on offense
