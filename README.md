@@ -12,5 +12,12 @@ Given the expected points added for every play, we calculate offensive and defen
 
 The optimization described in our paper essentially obtains a team rating. E.g., a team with an offensive passing rating of 0.1 means that is 0.1 expected points per play better than average (an average team has a rating of 0). Similarly a team with a defensive rating of 0.1 means that it allows 0.1 expected points per play more than an average team (so for defensive rating a negative value is better!). These ratings take into consideration the opposition strength every team faced.
 
+The nfl_3factors.R is a script that builds a model for the correlation between the pass/rush/special teams ratings and total season wins. 
+
+Overall: 
+
+1. Passing explains 55%-64% of the win-loss variance
+2. Rushing explains 5%-12% of the win-loss variance
+3. Special teams explain only up to 2% of the win-loss variance
 
 
